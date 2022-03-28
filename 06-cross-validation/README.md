@@ -47,8 +47,7 @@ from sklearn.model_selection import KFold, StratifiedKFold
 - Perform cross-validation with a given model
 
 ```
-cross_val = cross_val_score(model, X_data, y_data, cv=4,
-								scoring='neg_mean_squared_error')
+cross_val = cross_val_score(model, X_data, y_data, cv=4, scoring='neg_mean_squared_error')
 ```
 
 Here, cv is the number of splits
